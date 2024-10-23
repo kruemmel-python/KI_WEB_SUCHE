@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.35326.246
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KI_WEB_SUCHE", "KI_WEBNEWS_SUCHE\KI_WEB_SUCHE.pyproj", "{3D7E3088-10A1-43E7-A8A7-F6359DF4A734}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D7E3088-10A1-43E7-A8A7-F6359DF4A734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7E3088-10A1-43E7-A8A7-F6359DF4A734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42E0EADA-84F9-45ED-BD1F-3D7DCB309A88}
+	EndGlobalSection
+EndGlobal
