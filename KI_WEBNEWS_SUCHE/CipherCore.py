@@ -124,7 +124,8 @@ def show_news_in_gui(articles, page, query):
         wait_label = tk.Label(frame, text="Bitte warten, Anfrage wird bearbeitet...", font=current_font)
         wait_label.grid(row=3, column=1, sticky="nw")
 
-        link_button = tk.Button(frame, text="Zum Artikel", font=current_font, fg="blue")
+        # Button "Zum Artikel" zur Verwendung des Hauptlinks des Artikels
+        link_button = tk.Button(frame, text="Zum Artikel", font=current_font, fg="blue", command=lambda link=article_url: open_link(link))
         link_button.grid(row=4, column=1, sticky="nw", pady=5)
 
         # Codestral-Analyse für den Artikelinhalt
